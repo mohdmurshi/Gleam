@@ -25,3 +25,7 @@ document.querySelector('nav a[href="#contact"]').addEventListener('click', funct
     event.preventDefault(); // Prevent default behavior of jumping to the section
     smoothScroll(this.getAttribute('href')); // Call smoothScroll function
 });
+
+$('.navbar-nav a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
