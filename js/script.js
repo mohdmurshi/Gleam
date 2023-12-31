@@ -26,6 +26,10 @@ document.querySelector('nav a[href="#contact"]').addEventListener('click', funct
     smoothScroll(this.getAttribute('href')); // Call smoothScroll function
 });
 
+
+
 $('.navbar-nav a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
+  
+
